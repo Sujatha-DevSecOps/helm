@@ -18,6 +18,6 @@ spec:
     component: frontend
     purpose: deployment
   ports:
-    - protocol: TCP
+    - protocol: TCP 
       port: 80 # service port
       targetPort: 80 # container port
